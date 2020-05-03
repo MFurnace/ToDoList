@@ -1,0 +1,55 @@
+body{
+    font-family: 'Permanent Marker', cursive;
+    background-color: #09C2FF;
+    color: black;
+}
+ul{
+    list-style: none;
+    margin: 10;
+    padding: 10;
+}
+#container {
+    width: 360px;
+    margin 100px auto;
+    box-shadow 0 0 10px rgba(0,0,0, .25);
+}
+input{
+    font-family: 'Permanent Marker', cursive;
+    font-style: 20px;
+    background-color: #09C2FF;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    border:none; 
+}
+input:focus{
+    outline: none;
+}
+span{
+    height: 50px;
+    text-align: center;
+    width: 60 px;
+    float: right;
+    padding: 0px 10px;
+}
+h1{
+    background-color: #007551;
+    margin: 30;
+    padding: 10px 90px; 
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: normal;
+}
+li{
+    background-color: #007551;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 0 0 20px;
+}
+li:nth-child(2n){
+    background-color: #09C2FF;
+}
+.completed {
+    color: blue;
+    text-decoration: line-through;
+}
